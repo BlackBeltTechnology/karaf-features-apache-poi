@@ -1,0 +1,13 @@
+# Karaf fearture Apache POI libraries
+
+Externsion to karaf which adds Apache POI bundles to karaf features.
+
+To install some features features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
+
+- mvn:hu.blackbelt.karaf.features/javax/1.0.1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
+- mvn:hu.blackbelt.karaf.features/bouncycastle/1.61.2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-bouncycastle)
+- mvn:hu.blackbelt.karaf.features/apache-commons/1.0.2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-commons)
+
+## Features:
+- apache-poi3 3.13.1
+- apache-poi4 4.0.1_1
