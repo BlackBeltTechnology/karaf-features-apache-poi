@@ -5,7 +5,7 @@
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>apache-poi</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <relativePath>../</relativePath>
     </parent>
     <artifactId>apache-poi-features</artifactId>
@@ -64,7 +64,6 @@
                                 <descriptor>mvn:org.apache.karaf.features/framework/${karaf-version}/xml/features</descriptor>
                                 <descriptor>mvn:org.apache.karaf.features/standard/${karaf-version}/xml/features</descriptor>
                                 <descriptor>mvn:org.apache.karaf.features/enterprise/${karaf-version}/xml/features</descriptor>
-                                <descriptor>mvn:hu.blackbelt.karaf.features/javax-features/${javax-karaf-features-version}/xml/features</descriptor>
                                 <descriptor>mvn:hu.blackbelt.karaf.features/apache-commons-features/${apache-commons-karaf-features-version}/xml/features</descriptor>
                                 <descriptor>mvn:hu.blackbelt.karaf.features/bouncycastle-features/${bouncycastle-karaf-features-version}/xml/features</descriptor>
                                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
@@ -109,14 +108,6 @@
             <type>xml</type>
             <scope>runtime</scope>
             <version>${karaf-version}</version>
-        </dependency>
-        <dependency>
-            <groupId>hu.blackbelt.karaf.features</groupId>
-            <artifactId>javax-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-            <scope>runtime</scope>
-            <version>${javax-karaf-features-version}</version>
         </dependency>
         <dependency>
             <groupId>hu.blackbelt.karaf.features</groupId>
