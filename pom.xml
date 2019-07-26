@@ -11,9 +11,8 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-features-version>1.0.1</javax-karaf-features-version>
         <bouncycastle-karaf-features-version>1.61.2</bouncycastle-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.2</apache-commons-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
     </properties>
 
     <description>Apache POI Karaf features</description>
