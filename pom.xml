@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
     <version>1.0.3-SNAPSHOT</version>
@@ -11,8 +9,8 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <bouncycastle-karaf-features-version>1.61.2</bouncycastle-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
+        <bouncycastle-karaf-features-version>1.61.3.20191112_145528_65f6ec3_develop</bouncycastle-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.6.20191112_150120_8396e08_develop</apache-commons-karaf-features-version>
     </properties>
 
     <description>Apache POI Karaf features</description>
