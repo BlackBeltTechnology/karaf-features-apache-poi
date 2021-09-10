@@ -12,13 +12,21 @@
         <bundle>mvn:hu.blackbelt.bundles.poi/org.apache.poi/3.17_1</bundle>
     </feature>
 
-    <feature name="apache-poi4" version="4.0.1" description="Apache POI 4" install="false">
+    <feature name="apache-poi4" version="4.1.2" description="Apache POI 4" install="false">
+
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xalan/2.7.2_3</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xerces/2.12.1_1</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.batik/1.14_1</bundle>
+
         <feature>bouncycastle</feature>
-        <feature>apache-xmlbeans2</feature>
+        <feature>apache-xmlbeans3</feature>
         <feature>apache-commons-codec</feature>
         <feature>apache-commons-collections4</feature>
         <feature>apache-commons-compress</feature>
         <feature>apache-commons-math3</feature>
-        <bundle>mvn:hu.blackbelt.bundles.poi/org.apache.poi/4.0.1_1</bundle>
+        <feature>apache-commons-bcel</feature>
+        <feature>apache-commons-io</feature>
+        <bundle>mvn:hu.blackbelt.bundles.poi/org.apache.poi/4.1.2_1</bundle>
     </feature>
 </features>
