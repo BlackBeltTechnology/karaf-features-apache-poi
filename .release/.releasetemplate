@@ -1,0 +1,6 @@
+**Branch:** 
+develop
+**Maven repository:** 
+https://nexus.judo.technology/repository/maven-judong-snapshots//#browse/browse:maven-judo-release:hu%2Fblackbelt%2Feclipse%2F${project-shortname}
+**Wercker:** 
+https://app.wercker.com/${project-repositoryId}/runs/build/613d2b4d0adbc8002a99ca09
