@@ -122,7 +122,6 @@
                             </execution>
                         </executions>
                     </plugin>
-
                 </plugins>
             </build>
             <dependencies>
@@ -176,5 +175,4 @@
             </dependencies>
         </profile>
     </profiles>
-
 </project>
